@@ -1,8 +1,12 @@
 import Navigation from './components/Navigation';
+import Splash from './components/Splash';
 
 const App = () => {
   return (
-    <Navigation/>
+    <div>
+      <Navigation/>
+      <Splash/>
+    </div>
   );
 }
 
