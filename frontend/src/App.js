@@ -1,8 +1,8 @@
-function App() {
+import Navigation from './components/Navigation';
+
+const App = () => {
   return (
-    <div className="App">
-      Placeholder Text
-    </div>
+    <Navigation/>
   );
 }
 
