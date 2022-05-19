@@ -1,8 +1,12 @@
+import About from './components/About';
 import Splash from './components/Splash';
 
 const App = () => {
   return (
-    <Splash/>
+    <div>
+      <Splash/>
+      <About/>
+    </div>
   );
 }
 

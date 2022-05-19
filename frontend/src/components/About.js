@@ -2,7 +2,7 @@ import '../styles/GlobalStyles.css';
 
 const About = () => {
     return (
-        <div className="global-margins">
+        <div>
             <h1>Testing the about page here</h1>
 
             <p>

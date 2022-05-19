@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
-import About from './components/About';
+import History from './components/History';
+import Flag from './components/Flag';
 import Recruitment from './components/Recruitment';
 
 const RouteSwitch = () => {
@@ -8,7 +9,9 @@ const RouteSwitch = () => {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<App/>}/>
-                <Route path="/about" element={<About/>}/>
+                <Route path="/history" element={<History/>}/>
+                <Route path="/flag" element={<Flag/>}/>
+
 
                 <Route path="/recruitment" element={<Recruitment/>}/>
             </Routes>

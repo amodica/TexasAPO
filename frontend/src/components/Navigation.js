@@ -11,7 +11,10 @@ const Navigation = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                    <Nav.Link href="/about">About Us</Nav.Link>
+                    <NavDropdown title="Learn More" id="basic-nav-dropdown">
+                        <NavDropdown.Item href="/history">History of Texas APO</NavDropdown.Item>
+                        <NavDropdown.Item href="/flag">The World's Largest Texas Flag</NavDropdown.Item>
+                    </NavDropdown>
                     <Nav.Link href="/recruitment">Recruitment</Nav.Link>
                     <NavDropdown title="Socials" id="basic-nav-dropdown">
                         <NavDropdown.Item href="#action/3.1">Facebook</NavDropdown.Item>
