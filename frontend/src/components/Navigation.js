@@ -13,14 +13,12 @@ const Navigation = () => {
                 <Nav className="me-auto">
                     <Nav.Link href="/about">About Us</Nav.Link>
                     <Nav.Link href="/recruitment">Recruitment</Nav.Link>
-                    <Nav.Link href="#link">Link</Nav.Link>
-                    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                    <NavDropdown title="Socials" id="basic-nav-dropdown">
+                        <NavDropdown.Item href="#action/3.1">Facebook</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.3">Twitter</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.4">Instagram</NavDropdown.Item>
                     </NavDropdown>
+                    <Nav.Link href="#link">Random</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>
