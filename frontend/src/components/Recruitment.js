@@ -2,7 +2,7 @@ import '../styles/GlobalStyles.css';
 
 const Recruitment = () => {
     return (
-        <div className="global-margins">
+        <div>
             <h1>Recruitment page</h1>
 
             RECRUITMENT

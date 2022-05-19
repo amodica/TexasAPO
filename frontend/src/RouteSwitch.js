@@ -3,6 +3,7 @@ import App from './App';
 import History from './components/History';
 import Flag from './components/Flag';
 import Recruitment from './components/Recruitment';
+import Contact from './components/Contact';
 
 const RouteSwitch = () => {
     return (
@@ -12,8 +13,8 @@ const RouteSwitch = () => {
                 <Route path="/history" element={<History/>}/>
                 <Route path="/flag" element={<Flag/>}/>
 
-
                 <Route path="/recruitment" element={<Recruitment/>}/>
+                <Route path="/contact" element={<Contact/>}/>
             </Routes>
         </BrowserRouter>
     );
