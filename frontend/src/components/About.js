@@ -1,9 +1,8 @@
-import Navigation from './Navigation';
+import '../styles/GlobalStyles.css';
 
 const About = () => {
     return (
-        <div>
-            <Navigation/>
+        <div className="global-margins">
             <h1>Testing the about page here</h1>
 
             <p>
