@@ -21,6 +21,9 @@ const Navigation = () => {
                         <NavDropdown.Item href="#action/3.3">Twitter</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.4">Instagram</NavDropdown.Item>
                     </NavDropdown>
+                    <NavDropdown title="Alumni" id="basic-nav-dropdown">
+                        <NavDropdown.Item href="/scrapbooks">Scrapbooks</NavDropdown.Item>
+                    </NavDropdown>
                     <Nav.Link href="/contact">Contact Us</Nav.Link>
                 </Nav>
                 </Navbar.Collapse>
