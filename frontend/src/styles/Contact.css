@@ -2,6 +2,22 @@
     font-weight: 700;
 }
 
-.main-container {
-    text-align: left;
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.left-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+.right-text {
+    text-align: right;
+    width: 100%;
 }

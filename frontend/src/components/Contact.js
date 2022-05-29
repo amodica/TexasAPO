@@ -3,66 +3,83 @@ import '../styles/Contact.css';
 
 const Contact = () =>  {
     return (
-        <div className="main-container">
+        <div>
             <Typography variant="h2" align="center" gutterBottom>
                 Contact Us
             </Typography>
 
-            <Typography variant="h5" gutterBottom>
-                Fall 2022 Executive Board
-            </Typography>
+            <div className="contact-container">
+                <div className="left-text">
+                    <Typography variant="h5">
+                    Fall 2022 Executive Board
+                    </Typography>
+                </div>
+                <div className="right-text">
+                    <Typography variant="body1">
+                        <div className="position-title">President</div>
+                        []
+                        <br></br>
+                        president@texasapo.org
+                    </Typography>
 
-            <Typography variant="body1" gutterBottom>
-                <div className="position-title">President</div>
-                []
-                <br></br>
-                president@texasapo.org
-            </Typography>
+                    <br></br>
 
-            <Typography variant="body1" gutterBottom>
-                <div className="position-title">Administrative Vice President</div>
-                []
-                <br></br>
-                avp@texasapo.org
-            </Typography>
+                    <Typography variant="body1">
+                        <div className="position-title">Administrative Vice President</div>
+                        []
+                        <br></br>
+                        avp@texasapo.org
+                    </Typography>
 
+                    <br></br>
 
-            <Typography variant="body1" gutterBottom>
-                <div className="position-title">Leadership Vice President</div>
-                []
-                <br></br>
-                lvp@texasapo.org
-            </Typography>
+                    <Typography variant="body1">
+                        <div className="position-title">Leadership Vice President</div>
+                        []
+                        <br></br>
+                        lvp@texasapo.org
+                    </Typography>
 
-            <Typography variant="body1" gutterBottom>
-                <div className="position-title">Membership Vice President</div>
-                []
-                <br></br>
-                mvp@texasapo.org
-            </Typography>
+                    <br></br>
 
-            <Typography variant="body1" gutterBottom>
-                <div className="position-title">Pledge Trainer</div>
-                []
-                <br></br>
-                pt@texasapo.org
-            </Typography>
+                    <Typography variant="body1">
+                        <div className="position-title">Membership Vice President</div>
+                        []
+                        <br></br>
+                        mvp@texasapo.org
+                    </Typography>
 
-            <Typography variant="body1" gutterBottom>
-                <div className="position-title">Service Vice President</div>
-                []
-                <br></br>
-                svp@texasapo.org
-            </Typography>
+                    <br></br>
 
-            <Typography variant="body1" gutterBottom>
-                <div className="position-title">Treasurer</div>
-                []
-                <br></br>
-                treasurer@texasapo.org
-            </Typography>
+                    <Typography variant="body1">
+                        <div className="position-title">Pledge Trainer</div>
+                        []
+                        <br></br>
+                        pt@texasapo.org
+                    </Typography>
 
-            <br></br>
+                    <br></br>
+
+                    <Typography variant="body1">
+                        <div className="position-title">Service Vice President</div>
+                        []
+                        <br></br>
+                        svp@texasapo.org
+                    </Typography>
+                
+                    <br></br>
+
+                    <Typography variant="body1">
+                        <div className="position-title">Treasurer</div>
+                        []
+                        <br></br>
+                        treasurer@texasapo.org
+                    </Typography>
+                </div>
+            </div>
+
+            
+            
 
             <Typography variant="h5" gutterBottom>
                 Fall 2022 Officer Board
