@@ -8,7 +8,6 @@ const Navigation = () => {
   return (
 
         <div className="nav-wrapper">
-
             <Navbar expand="lg" className="nav-container">
                 <Container>
                     <Navbar.Brand href="/">Texas APO</Navbar.Brand>
@@ -33,6 +32,7 @@ const Navigation = () => {
                         </Nav.Link>
                         <NavDropdown title="Links" id="basic-nav-dropdown">
                             <NavDropdown.Item href="https://www.apoonline.org/alpharho/memberhome.php">APO Online</NavDropdown.Item>
+                            <NavDropdown.Item href="https://github.com/amodica/TexasAPO">Website Code</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                     </Navbar.Collapse>
