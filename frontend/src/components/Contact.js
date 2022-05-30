@@ -1,5 +1,6 @@
 import Typography from '@mui/material/Typography';
 import '../styles/Contact.css';
+import '../styles/GlobalStyles.css';
 
 const Contact = () =>  {
     return (

@@ -10,6 +10,11 @@
     margin-bottom: 5%;
 }
 
+.position-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .left-text {
     display: flex;
     flex-direction: row;
@@ -21,9 +26,4 @@
 .right-text {
     text-align: right;
     width: 100%;
-}
-
-.position-container {
-    margin-top: 5%;
-    margin-bottom: 5%;
 }
