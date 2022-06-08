@@ -1,8 +1,12 @@
-import '../styles/GlobalStyles.css';
+import '../styles/Splash.css';
+import banner from '../images/apo_splash.jpeg';
 
 const Splash = () => {
     return (
-        <h1>This is the splash component</h1>
+        <div className="container">
+            <img src={banner} alt=""></img>
+            <div className="splash-text">Texas Alpha Phi Omega</div>
+        </div>
     );
 }
 

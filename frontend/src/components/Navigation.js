@@ -6,7 +6,6 @@ import '../styles/Navigation.css';
 
 const Navigation = () => {
   return (
-
         <div className="nav-wrapper">
             <Navbar expand="lg" className="nav-container">
                 <Container>
