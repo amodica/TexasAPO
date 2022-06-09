@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import RouteSwitch from './RouteSwitch';
 import Navigation from './components/Navigation';
+import Splash from './components/Splash';
 
 import './styles/GlobalStyles.css';
 
@@ -17,6 +18,7 @@ import '@fontsource/roboto/700.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Splash/>
     <Navigation/>
     <div className="global-margins">
       <RouteSwitch/>
