@@ -18,10 +18,12 @@ import '@fontsource/roboto/700.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Splash/>
-    <Navigation/>
-    <div className="global-margins">
-      <RouteSwitch/>
+    <div className="top-level-container">
+      <Splash/>
+      <Navigation/>
+      <div className="global-margins">
+        <RouteSwitch/>
+      </div>
     </div>
   </React.StrictMode>
 );
