@@ -1,8 +1,9 @@
-import About from './components/About';
+import Home from './components/Home.js';
 
 const App = () => {
   return (
     <div>
+      <Home/>
     </div>
   );
 }
