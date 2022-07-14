@@ -1,0 +1,16 @@
+.spotlight-container {
+    display: flex;
+    flex-direction: row;
+    border-style: groove;
+    background-color: red;
+}
+
+.spotlight-container .display-container {
+    flex-grow: 1;
+    background-color: blue;
+}
+
+.spotlight-container .info-container {
+    flex-grow: 2;
+    background-color: aqua;
+}

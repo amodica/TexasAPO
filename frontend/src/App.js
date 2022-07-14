@@ -1,3 +1,4 @@
+import './styles/Global.css';
 import Home from './components/Home.js';
 
 const App = () => {
