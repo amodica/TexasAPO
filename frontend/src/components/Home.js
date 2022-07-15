@@ -8,11 +8,11 @@ const Home = () => {
                     Display
                 </div>
                 <div className='info-container'>
-                    Info
+                    <h1>Info</h1>
+                    <p>Text text text</p>
+                    <button className='link-button'>Learn more</button>
                 </div>
             </div>
-            <h1>Header</h1>
-            <p>Paragraph paragraph paragraph.</p>
         </div>
     );
 }
